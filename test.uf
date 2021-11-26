@@ -1,0 +1,30 @@
+static filemode {
+    READ = 4
+    WRITE = 2
+    APPEND = 1
+}
+
+comp File {
+    .new = (fp@String@Path, mode@Int) {...}
+    .readc = () {...}
+    .writec = (c@Char) {...}
+    read = () {...}
+    readb = () {...}
+    write = (data@String) {...}
+    writeb = (data@Byte) {...}
+    close = () {...}
+    reopen = (fp@String@Path=.fp, mode@Int=.mode) {...}
+}
+
+static modules {
+    .locate = (name@String) {...}
+    load = (name@String) {...}
+    reload = (module@Static) {...}
+    release = (module@Static) {...}
+}
+
+module_t = modules.load("test")
+
+f = File("test.txt", filemode.READ | filemode.WRITE)
+
+module_t.test1.test2.helloworld()
