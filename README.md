@@ -1,2 +1,2 @@
 # unfortune
-An unfortune programming language.
+An unfortunate programming language.
