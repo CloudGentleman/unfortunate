@@ -29,7 +29,7 @@ IOBJECT __add__(IOBJECT* L, IOBJECT* R) {
             RET.location = (void*)(&swp);
         } else if (R->type == ITYPE_INT) {
             // int + int
-            IRFLOAT swp = *(IRINT*)(L->location) + *(IRINT*)(R->location);
+            IRINT swp = *(IRINT*)(L->location) + *(IRINT*)(R->location);
             RET.type = ITYPE_INT;
             RET.location = (void*)(&swp);
         } else {
