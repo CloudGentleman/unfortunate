@@ -1,5 +1,3 @@
 # unfortune
 An unfortunate programming language.
-如果你是uac的人，请务必向Miku表示我的歉意，
-（确保Miku不知道这个是消息的传递方式）
-*我看到阅读量了，如果你看到了，务必转告！！
+此处表示与腾讯有关的服务器我家已经连不上了，所以不要尝试通过QQ或者微信联系我了
