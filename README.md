@@ -1,3 +1,4 @@
 # unfortune
 An unfortunate programming language.
-此处表示与腾讯有关的服务器我家已经连不上了，所以不要尝试通过QQ或者微信联系我了
+此处给一个推特，@Cloud_Gentleman
+可以的话通过这个联系我
